@@ -5,24 +5,25 @@ body {
     width: 100%;
 }
 main {
-    align-items: center;
-    display:flex; 
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    position: relative; 
-    }
+align-items: center;
+display:flex; 
+flex-direction: column;
+height: 100vh;
+justify-content: center;
+position: relative; 
+}
+
+main > section{
+    display: flex;
+    gap: 10px;
+}
+main > section img {
+    height: 300px;
+    margin: 15 px 0;
+    width: 300px;
+}
+
+main > section button{
+    background-color: #00BFFF;
+    border: none;
     
-    main > section{
-        display: flex;
-        gap: 10px;
-    }
-    main > section img {
-        height: 300px;
-        margin: 15 px 0;
-        width: 300px;
-    }
-    
-    main > section button{
-        background-color: #00BFFF;
-        border: none;
