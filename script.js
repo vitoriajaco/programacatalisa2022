@@ -1,5 +1,5 @@
 const botao = document.querySelector('button');
-}
+
 traduzirCondicao = (data) => {
     if(data.status =='unknown'){
         return 'Não sabemos';
